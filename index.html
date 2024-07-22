@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Professionnel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="votre-photo.jpg" alt="Votre photo" class="profile-photo">
+            <h1>Votre Nom</h1>
+            <h2>Développeur d'Applications</h2>
+        </div>
+        <div class="profile-content">
+            <section class="profile-bio">
+                <h3>Bio</h3>
+                <p>Bonjour, je suis un développeur d'applications avec une passion pour la création de solutions innovantes. J'ai récemment obtenu mon BTS en Informatique et je travaille actuellement sur un projet de gestion de panneaux publicitaires.</p>
+            </section>
+            <section class="profile-skills">
+                <h3>Compétences</h3>
+                <ul>
+                    <li>Développement web : HTML, CSS, JavaScript</li>
+                    <li>Frameworks : React, Vue.js</li>
+                    <li>Langages : Python, Java</li>
+                    <li>Base de données : MySQL, MongoDB</li>
+                </ul>
+            </section>
+            <section class="profile-contact">
+                <h3>Contact</h3>
+                <p>Email : <a href="mailto:votre-email@example.com">votre-email@example.com</a></p>
+                <p>LinkedIn : <a href="https://www.linkedin.com/in/votreprofil" target="_blank">Votre Profil LinkedIn</a></p>
+                <button id="contactButton">Contactez-moi</button>
+            </section>
+        </div>
+    </div>
+    <script>
+
+    document.getElementById('contactButton').addEventListener('click', function() {
+    alert('Merci de vouloir me contacter ! Vous pouvez me joindre par email à votre-email@example.com.');
+     });
+
+    </script>
+</body>
+</html>
